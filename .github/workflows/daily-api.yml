@@ -3,7 +3,7 @@ name: Daily API Call
 on:
   schedule:
     # Runs at 18:00 UTC = 19:00 CET (winter) / 20:00 CEST (summer)
-    - cron: '50 1 * * *'
+    - cron: '0 19 * * *'
   
   workflow_dispatch:  # Allows manual trigger for testing
 
